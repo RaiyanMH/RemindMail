@@ -1,5 +1,7 @@
 # RemindMail
 
+A simple yet powerful desktop reminder app that emails you exactly when you need it.
+
 A desktop application built with Electron, React, and Node.js that allows you to create reminders with scheduled email notifications.
 
 ## Features
@@ -123,4 +125,3 @@ This application works on:
 ## License
 
 MIT
-
