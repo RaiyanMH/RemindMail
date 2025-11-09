@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.DS_Store
+dist/
+build/
+*.swp
+*.swo
+*~
+
+# User data (stored in Electron's userData directory, not in project)
+# But if any test files exist, ignore them
+reminders.json
+settings.json
+test-*.json
+

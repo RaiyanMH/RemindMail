@@ -1,0 +1,24 @@
+{
+  "name": "remindmail",
+  "version": "1.0.0",
+  "description": "A desktop app to create reminders with scheduled email notifications",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["electron", "react", "reminder", "email"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^27.0.0",
+    "nodemailer": "^6.9.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
+
