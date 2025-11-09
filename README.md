@@ -115,6 +115,27 @@ RemindMail/
 └── README.md        # This file
 ```
 
+## Known Limitations & Future Improvements
+
+This application is currently in active development and may contain some limitations:
+
+- **Development Status**: The application is functional but may have some edge cases and minor issues that require further testing and refinement.
+
+- **Email Authentication**: Currently uses SMTP with basic authentication. A significant improvement would be to integrate the Gmail API, which would provide:
+  - More reliable authentication without requiring app passwords
+  - Better security through OAuth 2.0
+  - Improved error handling and rate limiting
+  - Enhanced compatibility with Gmail's security policies
+
+- **Development Console**: When running in development mode (`npm run dev`), you may notice warnings in the browser console. These are primarily related to:
+  - CDN-based dependencies (Tailwind CSS, Babel) which are used for development convenience
+  - Content Security Policy configurations
+  - These warnings do not affect functionality but should be addressed in production builds
+
+- **Error Handling**: While the application handles common error scenarios, there may be edge cases that require additional error handling and user feedback mechanisms.
+
+Contributions and improvements are welcome! Please feel free to submit issues or pull requests.
+
 ## Platform Support
 
 This application works on:
